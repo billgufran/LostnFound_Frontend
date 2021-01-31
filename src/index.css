@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.name-section {
+  text-align: center;
+}
+
+.ant-menu{
+  height: 0 !important;
+}
+.ant-layout-sider-children{
+  background-color: white !important;
+}
+/* LOGOUT STYLING */
+
+.logout-style {
+  padding-left: 24px;
+  position: absolute;
+  bottom: 3rem;
+  cursor: pointer;
+}
+
+.logout-style:hover {
+  color: #608ac4;
+}
+
+/* Alert Delete Styling */
+
+.alert-delete {
+  width: 260px;
+}
+
+.alert-delete .swal-icon {
+  margin-bottom: 10px;
+}
+.alert-delete .swal-title {
+  font-size: 16px;
+  color: #000;
+}
+.alert-delete .swal-text {
+  text-align: center;
+  font-size: 14px;
+  color: #8a8a8a;
+}
+
+.alert-delete .swal-footer {
+  text-align: center;
+}
+
+.alert-delete .swal-button {
+  width: 100px;
+}
+
+.alert-delete .cancel-button {
+  background-color: #fff;
+  border: 1px solid #dadadc;
+}
+
+/* MODAL STYLING */
+.optional-text {
+  position: absolute;
+  right: 2rem;
+  color: #3fa5fa;
+}
+
+.ant-menu .ant-menu-light .ant-menu-root .ant-menu-inline{
+  height: 0 !important;
+}
+/* OVERLAY */
+.ant-spin-nested-loading > div > .ant-spin{
+  top: 25%;
+}
+
+/*Spin modal verifcation */
+.spin-modal-verification{
+  top: 0 !important;
+}
+
+
+
+/* Styling modal Show Photo with slick carousel */
+ 
+.ant-modal-confirm .ant-modal-confirm-btns{
+  margin-top: 0;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 47%;
+  z-index: 1;
+}
+
+.slides .slick-arrow{
+  background-color: #959595;
+  height: 19px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.slides .slick-dots li{
+  margin-bottom: 80px;
+  bottom: 0;
+}
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
+}
+
+
+/* INPUT ADMIN */
+
+.admin-loader .ant-spin-nested-loading > div > .ant-spin{
+  top: 10% !important;
+}
+.admin-loader .ant-upload.ant-upload-select-picture-card{
+  width: 100%;
+}
+
+.admin-upload{
+  font-size: 1.5rem;
+  color: #2d90e0;
+}
+
+.admin-loader .avatar-uploader .ant-upload.ant-upload-select-picture-card{
+  background-color: white !important;
+  border: none;
+}
